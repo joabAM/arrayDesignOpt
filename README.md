@@ -29,3 +29,9 @@ from arrayDesignOpt import main  <br />
 arr = main.AntennaArray(N=64) <br />
 norm_pattern, _domg, _cosxy, _radmin, _pat_int  = arr.getPattern() <br />
 SLLdB, XBest, YBest, BeamOpt, Xlast1, Ylast1 = arr.minimizeSLL( _radmin,gain=10, plotPattern=True) <br />
+
+### Process:
+![Screen1](images/img_1.png)
+![Screen2](images/img_2.png)
+![Screen3](images/img_3.png)
+![Screen4](images/img_4.png)
